@@ -1,0 +1,192 @@
+body{
+	background:url(images/bg-footer.gif) repeat scroll 0pt 0pt;
+}
+
+div{
+	
+}
+
+.container{
+	outline:1px solid white;
+}
+
+.container>div{
+	outline:1px solid blue;
+}
+div.container-header{
+
+}
+
+	div.tolltip{
+		min-height:40px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+		div.tolltip-desc{
+			text-indent:40px;
+		}
+		div.tolltip-call-now,
+		p.tolltip-call-now{
+
+			text-align:right;
+		}
+
+	div.menu-style{
+		min-height:100px;
+		background: url(images/bg-row-menu.png) center top no-repeat ;
+		background-size:950px auto;
+	}
+		div.menu{
+			margin-top:25px;
+			margin-right:10px;
+		}
+			div.menu ul{
+				list-style-type:none;	
+			}
+				div.menu  li{
+					float:left;
+				}
+					div.menu a{
+						text-decoration:none;
+						display:block;
+						color:#908275;
+						padding:10px 12px;
+						font-size: 17px;
+						line-height: 18px;
+						font-family: 'Oswald', sans-serif;
+						font-weight: 500;
+						letter-spacing: -1px;
+						-webkit-transition: all 0.5s ease;
+						-moz-transition: all 0.5s ease;
+						-o-transition: all 0.5s ease;
+						-ms-transition: all 0.5s ease;
+						transition: all 0.5s ease;
+						
+					}
+					div.menu a:hover{
+						color:#FFF;
+					}
+
+		div.logo{
+			border:1px solid red;
+			height:75px;
+		}
+		
+		
+div.container-slideshow{
+
+}
+	div.slideshow{
+		min-height:550px;
+	}
+
+div.container-gallery-pic{
+
+}
+	div.gallery-pic{
+		min-height:265px;
+	}
+		div.gallery-pic-title{
+
+		}	
+		div.gallery-pic-slider{
+
+		}
+			div.left-botton{
+			
+				outline:1px dashed red;
+				height:30px;
+				
+			}
+			div.slider-page{
+				min-height:130px;
+				outline:1px dashed red;
+			}
+			div.right-botton{
+				
+				outline:1px dashed red;
+				height:30px;
+				
+			}
+		div.gallery-pic-visit-gallery{
+
+		}
+
+div.container-content{
+	outline:1px dashed red;
+}
+	div.content-left{
+		min-height:670px;
+	}
+		div.welcome{
+			min-height:270px;
+			outline:1px dashed orange;
+		}
+		div.company-profile{
+			min-height:400px;
+			outline:1px dashed orange;
+		}
+			div.company-profile-title{
+				min-height:100px;
+			}
+			div.company-profile-top{
+				min-height:125px;
+			}
+				div.company-profile-top-1{
+					outline:1px solid magenta;
+					min-height:inherit;
+
+				}
+				div.company-profile-top-2{
+					outline:1px solid magenta;
+					min-height:inherit;
+				}
+
+			div.company-profile-bottom{
+				min-height:175px;
+
+			}
+				div.company-profile-bottom-1{
+					outline:1px solid magenta;
+					min-height:inherit;
+
+				}
+				div.company-profile-bottom-2{
+					outline:1px solid magenta;
+					min-height:inherit;
+
+				}
+
+	div.content-right{
+		min-height:670px;
+	}
+		div.sections-list{
+			min-height:430px;
+			outline:1px dashed orange;
+		}
+		div.news-letter{
+			min-height:240px;
+			outline:1px dashed orange;
+		}
+div.container-footer{
+
+}
+	div.footer-top{
+		min-height:220px;
+	}
+		div.footer-quick-links{
+			outline:1px solid magenta;
+			min-height:inherit;
+
+		}
+		div.footer-about-us{
+			outline:1px solid magenta;
+			min-height:inherit;
+		}
+		div.follow-us{
+			outline:1px solid magenta;
+			min-height:inherit;
+		}
+	div.footer-bottom{
+		min-height:70px;
+	}

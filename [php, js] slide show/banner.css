@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* Banner CSS for teaching */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:magenta;
+}
+
+div.page-slideshow{
+	width:920px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+div.banner{
+	width:920px;
+	height:430px;
+	overflow:hidden;
+	margin-top:20px;
+	position:relative;
+	box-shadow: rgba(41, 37, 27, 0.0898438) 0px 6.6666669845581055px 3.3333334922790527px 0px;
+	border:10px solid white;
+	border-radius:10px;
+
+
+}
+
+div.banner div.scroll{
+	height:430px;
+	position:absolute;
+	left:0;
+	top:0;
+	transition-property:all;
+	-webkit-transition-property:all;
+	-ms-transition-property:all;
+	-o-transition-property:all;
+	-moz-transition-property:all;
+	transition-duration:800ms;
+	-webkit-transition-duration:800ms;
+	-ms-transition-duration:800ms;
+	-o-transition-duration:800ms;
+	-moz-transition-duration:800ms;
+	transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-ms-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-o-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-moz-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	
+}
+
+div.banner div.scroll > div{
+	position : relative;
+	width    : 920px;
+	height   : inherit;
+	float    : left;
+}
+
+div.banner div.scroll > div > img{
+	width   : inherit;
+	height  : inherit;
+	display : block;
+}
+
+div.banner div.scroll > div > div.desc{
+	position : absolute;
+	left     : 0;
+	right    : 0;
+	bottom   : 0;
+	color    : #f2f2f2;
+	padding  : 10px 20px;
+
+	background-color : rgba(0,0,0,.5);
+	letter-spacing   : 1px;
+
+	-webkit-transition : all 200ms;
+	-ms-transition : all 200ms;
+	-o-transition : all 200ms;
+	-moz-transition : all 200ms;
+	transition : all 200ms;
+}
+
+div.banner div.scroll > div > div.desc:hover{
+	background-color : rgba(0,0,0,.7);
+}
+
+div.li-btn ul.btn{
+	list-style-type:none;
+	height:16px;
+	margin:0 auto;
+	margin-top:20px;
+	/*absulout dasht*/
+}
+
+div.li-btn ul.btn li{
+	float:left;
+	width:15px;
+	height:15px;
+	margin-left:5px;
+	background: url(images/bg-slider-pagination.png) 0 0 no-repeat;
+	cursor:pointer;
+	border-radius:20px;
+	-webkit-transition:all 800ms;
+}
+div.li-btn ul.btn li:first-child{
+	margin-left:0;
+}
+
+div.li-btn ul.btn li:hover,
+div.li-btn ul.btn li.active{
+	background-color:rgb(255, 160, 58);
+	-webkit-transition-duration:400ms;
+	-ms-transition-duration:400ms;
+	-o-transition-duration:400ms;
+	-moz-transition-duration:400ms;
+	transition-duration:400ms;
+}
+
